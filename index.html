@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Recognition App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Face Recognition</h1>
+        <p>This app recognizes faces using OpenCV and face_recognition library.</p>
+        <button onclick="startRecognition()">Start Recognition</button>
+        <p><strong>Note:</strong> Press <code>q</code> to quit the webcam window.</p>
+    </div>
+
+    <script>
+        function startRecognition() {
+            window.location.href = "/start"; // You need to handle this route with Flask/Python
+        }
+    </script>
+</body>
+</html>
